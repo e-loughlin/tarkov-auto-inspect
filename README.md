@@ -21,4 +21,9 @@ https://www.youtube.com/watch?v=SflZCmJArgU&feature=youtu.be
 
 ## Caveats
 
-If the script is failing, you may need to adjust your resolution / video settings. Sorry. This script uses `pyautogui` and relies on matching screenshots. If your screen doesn't match the screenshots provided, it might not work.
+1. If the script is failing, you may need to adjust your resolution / video settings. Sorry. This script uses `pyautogui` and relies on matching screenshots. If your screen doesn't match the screenshots provided, it might not work. You could resolve this problem by taking your own screenshots and replacing the images in the `img` directory.
+
+2. Currently, Jaeger isn't supported. This is simply because at the time I wrote this script, I didn't have Jaeger unlocked and couldn't screenshot his image. You can fix this by:
+
+  - Screenshotting Jaeger's face and saving "jaeger.png" in the `img` directory.
+  - Adding `"jaeger.png"` to the line in `inspect_items.py` that specifies the list of traders, i.e. change it to `["prapor.png", "therapist.png", "fence.png", "skier.png", "peacekeeper.png", "mechanic.png", "ragman.png", "jaeger.png"]`
