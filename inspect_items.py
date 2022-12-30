@@ -40,10 +40,9 @@ if __name__ == "__main__":
                     print("scrolling...")
                     gui.moveTo(all_item_sets_button)
                     gui.moveRel(0, 150)
-                    gui.scroll(-25)
-                    gui.scroll(-25)
-                    gui.scroll(-25)
-                    gui.scroll(-25)
+
+                    for _ in range(10):
+                        gui.scroll(-5)
 
         x = wait_until_img_appears(["trader1.png", "trader2.png"], 10)
         gui.click(x)
