@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=SflZCmJArgU&feature=youtu.be
 
 ## Caveats
 
-1. If the script is failing, you may need to adjust your resolution / video settings. Sorry. This script uses `pyautogui` and relies on matching screenshots. If your screen doesn't match the screenshots provided, it might not work. You could resolve this problem by taking your own screenshots and replacing the images in the `img` directory.
+1. If the script is failing, it may be because your resolution / video settings differ from mine when I took the screenshots. This script uses `pyautogui` and relies on matching screenshots. Therefore, if your screen doesn't match the screenshots provided, it might not work. You could resolve this problem by taking your own screenshots and replacing the images in the `img` directory.
 
 2. Currently, Jaeger isn't supported. This is simply because at the time I wrote this script, I didn't have Jaeger unlocked and couldn't screenshot his image. You can fix this by:
 
