@@ -26,4 +26,4 @@ https://www.youtube.com/watch?v=SflZCmJArgU&feature=youtu.be
 2. Currently, Jaeger isn't supported. This is simply because at the time I wrote this script, I didn't have Jaeger unlocked and couldn't screenshot his image. You can fix this by:
 
   - Screenshotting Jaeger's face and saving "jaeger.png" in the `img` directory.
-  - Adding `"jaeger.png"` to the line in `inspect_items.py` that specifies the list of traders, i.e. change it to `["prapor.png", "therapist.png", "fence.png", "skier.png", "peacekeeper.png", "mechanic.png", "ragman.png", "jaeger.png"]`
+  - Adding `"jaeger.png"` to the line in `inspect_items.py` that specifies the list of traders, i.e. change it to `traders = ["prapor.png", "therapist.png", "fence.png", "skier.png", "peacekeeper.png", "mechanic.png", "ragman.png", "jaeger.png"]`
