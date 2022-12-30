@@ -13,7 +13,7 @@ You can run this Python script while you have Escape from Tarkov open. It will g
 3. In a `cmd` prompt (Windows Command Prompt, or Powershell, for example) navigate to where you cloned the repository.
 4.  Run `python -m pip install -r requirements.txt`. 
 5. Run `python inspect_items.py`.
-6. Click on the menu somewhere in the game and the script should start running.
+6. Click on the menu somewhere in the game and the script should start running. Hands off the mouse and keyboard. It will go through each of the traders and inspect all the items; scrolling to the bottom while searching for each one.
 
 ## YouTube Demo
 
