@@ -14,7 +14,7 @@ if __name__ == "__main__":
     x = wait_until_img_appears(["trader1.png", "trader2.png"], 10)
     gui.click(x)
 
-    traders = ["prapor.png", "therapist.png", "fence.png", "skier.png", "peacekeeper.png", "mechanic.png", "ragman.png"]
+    traders = ["prapor.png", "therapist.png", "fence.png", "skier.png", "peacekeeper.png", "mechanic.png", "ragman.png", "jaeger.png"]
 
     for t in traders: 
         print(t.split(".")[0])
