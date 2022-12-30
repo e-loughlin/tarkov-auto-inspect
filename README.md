@@ -10,9 +10,10 @@ You can run this Python script while you have Escape from Tarkov open. It will g
 
 1. Clone this repository.
 2. Open Escape from Tarkov. Make sure you're at the main screen.
-3. In a `cmd` prompt (Windows Command Prompt, or Powershell, for example) navigate to where you cloned the repository. Run `python -m pip install -r requirements.txt`. 
-4. Run `python inspect_items.py`.
-5. Click on the menu somewhere in the game and the script should start running.
+3. In a `cmd` prompt (Windows Command Prompt, or Powershell, for example) navigate to where you cloned the repository.
+4.  Run `python -m pip install -r requirements.txt`. 
+5. Run `python inspect_items.py`.
+6. Click on the menu somewhere in the game and the script should start running.
 
 
 ## Caveats
