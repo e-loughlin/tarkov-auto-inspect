@@ -15,6 +15,9 @@ You can run this Python script while you have Escape from Tarkov open. It will g
 5. Run `python inspect_items.py`.
 6. Click on the menu somewhere in the game and the script should start running.
 
+## YouTube Demo
+
+https://www.youtube.com/watch?v=SflZCmJArgU&feature=youtu.be
 
 ## Caveats
 
